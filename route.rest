@@ -1,0 +1,28 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/
+
+###
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+"name": "Nakki",
+"age": 88
+}
+
+###
+
+PATCH http://localhost:3000/users/localhost:3000/users/668ab5ede6723af27f2a2ea4
+Content-Type: application/json
+
+{
+    "name": "Tuomas"
+}
+
+
+###
+
+DELETE http://localhost:3000/users/668ab3a5e6723af27f2a2ea3
